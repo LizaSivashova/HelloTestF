@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox id="body" alignment="CENTER" spacing="20.0" styleClass="body" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ac.il.haifa.cs.sweng.HelloTestFX.PrimaryController">
+<VBox id="body" alignment="CENTER" spacing="20.0" styleClass="body" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ac.il.haifa.cs.sweng.HelloTestFX.PrimaryController">
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
    </padding>
@@ -15,7 +15,7 @@
          <font>
             <Font size="36.0" />
          </font></TextField>
-      <Button id="button" mnemonicParsing="false" onAction="#sayHello" stylesheets="@style.css" text="Say Hello">
+      <Button id="button" fx:id="button" mnemonicParsing="false" onAction="#sayHello" stylesheets="@style.css" text="Say Hello">
          <font>
             <Font name="Arial Bold" size="24.0" />
          </font></Button>

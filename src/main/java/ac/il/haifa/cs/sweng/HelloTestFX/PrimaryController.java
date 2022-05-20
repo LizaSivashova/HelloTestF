@@ -4,6 +4,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
 public class PrimaryController {
@@ -18,7 +19,12 @@ public class PrimaryController {
     private TextField textField;
 
     @FXML
+    private Button button;
+
+    @FXML
     void sayHello(ActionEvent event) {
+
+        textField.setText("Hello World");
     }
 
     @FXML
